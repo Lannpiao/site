@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.body_area{
+    width: auto;
+}
+
+header{
+    height: 81px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.image{
+    width: 132px;
+    height: 41.89px;
+}
+.nav{
+    width: 100%;
+}
+.menu{
+    margin: 0 43px 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    
+}
+.ul{
+    display: flex;
+    
+    
+}
+li{
+    list-style: none;
+    color: white;
+}
+.separator{
+    list-style: none;
+    color: white;
+
+    
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 28px 17px;
+    
+}
+li a:hover{
+    color: #1ED760;
+    
+    
+}
+.hov{
+    color: #D9DADC;
+    
+    
+}
+
+.hov:hover{
+    color: #1ED760;
+    
+    
+}
+.line{
+    width: 1px;
+    height: 17px;
+    margin: 0 17px;
+    background-color: white;
+}
+.area_body1{
+    display: flex;
+    height: 635px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #993399;
+    
+}
+.spotify{
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    margin: 16px 0 32px 0;
+    padding: 0 0 14px 0;
+}
+.area_body1 h1{
+   
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    
+}
+.txt{
+    margin: 40px 0 0 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.texto{
+    margin: 0 32px 0 0;
+    padding: 72px 0;
+}
+.but{
+    margin: 45px 0 0 0;
+}
+.btn_premium{
+    background: #000;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 40px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn_premium:hover{
+    cursor: pointer;
+    transform: scale(1.05) 
+}
+.plane{ 
+    color: white; 
+    font-size: 11px;
+    margin: 48px 0 12px 0;
+}
+
+.area_body2{
+    display: flex;
+    height: 600px;
+    width: 100%;
+ 
+    
+}
+
+.area_body2 h1{
+   
+    color: #1ED760;
+    font-size: 55px;
+    font-weight: 900;
+    
+    
+}
+.txt2{
+    margin: 40px 0 0 0;
+    color: #1ED760;
+    font-size: 24px;
+    font-weight: 400;
+}
+.spotify2{
+    font-weight: bold;
+    color: #1ED760;
+    font-size: 13px;
+    margin: 88px 0 32px 0;
+    padding: 0 0 14px 0;
+}
+.btn_premium2{
+    background: #1ED760;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 40px;
+    color: #2941AB;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn_premium2:hover{
+    cursor: pointer;
+    transform: scale(1.05) 
+}
